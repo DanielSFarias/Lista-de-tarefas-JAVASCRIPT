@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background:#6954ae;
+}
+
+#botao-adicionar{
+    background: #603bb5;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    padding: 0 10px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 50px;
+    font-weight: 700;
+   
+}
+
+#botao-adicionar:hover{
+    opacity: 0.8;
+    background:  #6954ae;
+}
+#botao-adicionar:active{
+    opacity: 0.6;
+    
+}
+
+.container{
+    
+    background: #FFFFFF;
+    max-width: 600px;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 20px;
+}
+
+#input-principal{
+    width: 300px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 5px solid ;
+
+}
+
+#tarefas{
+    width: 100%;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.item-tarefa{
+    width: 500px;
+    height: 35px;
+    background: white;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 9px 30px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
